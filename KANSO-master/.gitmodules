@@ -1,0 +1,3 @@
+[submodule "KANSO"]
+	path = KANSO
+	url = https://github.com/BintangPr1/KANSO.git
