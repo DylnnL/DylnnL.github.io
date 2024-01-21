@@ -13,8 +13,12 @@
     }
 }
 
-.navbar-nav li{
-    padding: 20px 100px 20px 100px;
+.navbar-nav {
+    flex-direction: row ; 
+}
+
+.navbar-nav li {
+    padding: 20px 30px; 
     font-family: "JetBrains Mono";
 }
 
