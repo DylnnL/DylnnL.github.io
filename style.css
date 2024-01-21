@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@1&family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+
+.animated-content {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideInUp 0.8s ease forwards;
+}
+
+@keyframes slideInUp {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.navbar-nav li {
+    padding: 20px 100px 20px 100px;
+    font-family: "JetBrains Mono";
+}
+
+.navbar-nav li:hover {
+    text-decoration: underline;
+}
+
+.picture {
+    height: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.picture img {
+    height: 300px;
+    width: 300px;
+}
+
+.name {
+    font-family: "JetBrains Mono";
+    padding: 20px;
+}
+
+.job {
+    font-family: "JetBrains Mono";
+    /* padding: 20px; */
+}
+
+.details{
+    font-family: "JetBrains Mono";
+}
+
+.contacts{
+    font-family: "JetBrains Mono";
+}
+
+.html:hover{
+    background-color: #e34c26;
+    color: white;
+}
+
+.css:hover{
+    background-color: #264de4;
+    color: white;
+}
+
+.js:hover{
+    background-color: #f0db4f;
+    color: white;
+}
+
+.boots:hover{
+    background-color: #563d7c;
+    color: white;
+}
+
+.figma:hover{
+    background-color: black;
+    color: white;
+}
+
+.ax:hover{
+    background-color: black;
+    color: white;
+}
