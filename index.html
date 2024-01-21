@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <div class="navbar navbar-expand-sm bg-light justify-content-center container-fluid">
+    <div class="navbar navbar-expand-sm justify-content-center container-fluid">
       <ul class="navbar-nav flex-row"> 
           <li class="nav-item">
               <a class="nav-link text-decoration-underline" href="#">Profile</a>
@@ -20,29 +20,30 @@
       </ul>
   </div>
     <!-- ProfilePic -->
-    <div class="picture animated-content container-fluid">
+    <div class="picture animated-content container-fluid bg-light">
       <img src="./Assets/pic1.jpg" class = "rounded-circle" alt = "Rounded Image">
     </div>
     <!-- Name -->
-    <div class="name text-center animated-content">
+    <div class="name text-center animated-content bg-light">
       <h1>Dylan Lim</h1>
     </div>
     <!-- Job -->
-    <div class="job text-center animated-content p-2">
-      <h2>Front-End Developer</h2>
+    <div class="job text-center animated-content p-2 bg-light">
+      <h3>Front-End Developer</h3>
     </div>
 
     <!-- Contacts -->
-    <div class=" contacts row p-5 container-fluid animated-content">
-      <div class="email d-flex col-md-4 justify-content-center ">
+    <div class=" contacts row d-flex p-5 container-fluid animated-content justify-content-center bg-light">
+
+      <div class="email d-flex col-md-3 justify-content-center ">
       <img src="/Assets/email.svg" alt="Rounded Image" class="rounded-circle" style="width: 30px; height: 55px;">
       <p class="ml-2 p-3">dylanlim388@gmail.com</p>
     </div>
-    <div class="phoneNum d-flex col-md-4 justify-content-center">
+    <div class="phoneNum d-flex col-md-3 justify-content-center">
       <img src="/Assets/phone.svg" alt="" style="width: 30px; height: 55px;">
       <p class="ml-2 p-3">+62 81286969939</p>
     </div>
-    <div class="location d-flex col-md-4 justify-content-center">
+    <div class="location d-flex col-md-3 justify-content-center">
       <img src="/Assets/loc.svg" alt="" style="width: 30px; height: 55px;">
       <p class="ml-2 p-3">Indonesia, Jakarta Barat</p>
     </div>
@@ -50,56 +51,78 @@
     
 
     <!-- Details -->
-    <div class="details p-4 animated-content ">
+    <div class="details p-4 animated-content">
       <div class="row justify-content-center">
         <!-- About Me -->
-        <div class="decscription col-md-6 p-3 align-items-center ">
+        <div class="decscription col-md-6 p-3 align-items-center mt-4">
           <h4 class="text-center text-decoration-underline p-2">
             About Me
           </h4>
           <p class="ml-2 p-3">
-            Hello, I'm Dylan Lim, a front-end developer with a passion for designing 
-            beautiful and functional websites through writing clean, elegant and efficent code.
-            I am currently a student in BINUS University studying Computer Science. 
+            Hello, I'm Dylan Lim, a front-end developer with a passion for designing beautiful and functional websites through writing clean, elegant, and efficient code. I am currently a student at BINUS University studying Computer Science.
           </p>
         </div>
-
-        <div class="decscription col-md-6 p-3 align-items-center">
+    
+        <!-- Skills -->
+        <div class="decscription col-md-12 p-3 align-items-center mt-4">
           <h4 class="text-center text-decoration-underline p-2">
             Skills
           </h4>
-          <div class="row container-fluid">
-            <div class="skill1 d-flex text-center container-fluid align-items-center p-2" >
-              <div class="html col-md-4 p-2 border rounded" style="margin-right: 15px;">
-                <h5>HTML</h5>
-              </div>
-              <div class="css col-md-4 p-2 border rounded" style="margin-right: 15px;">
-                <h5>CSS</h5>
-              </div>
-              <div class="js col-md-4 p-2 border rounded" style="margin-right: 15px;">
-                <h5>JavaScript</h5>
-              </div>
-            </div>
-
-            <div class="skill1 d-flex text-center container-fluid align-items-center p-2" >
-              <div class="boots col-md-4 p-2 border rounded" style="margin-right: 15px;">
-                <h5>BootStrap</h5>
-              </div>
-              <div class="figma col-md-4 p-2 border rounded" style="margin-right: 15px;">
-                <h5>Figma</h5>
-              </div>
-              <div class="ax col-md-4 p-2 border rounded" style="margin-right: 15px;">
-                <h5>Axure</h5>
+        
+          <!-- First Skill Group -->
+          <div class="row container-fluid justify-content-center text-center">
+            <div class="col-md-6">
+              <div class="skill1 d-flex text-center container-fluid align-items-center p-2 mx-auto">
+                <div class="html col-md-4 p-2 border rounded ml-2" style="width: 300px;">
+                  <h5>HTML</h5>
+                </div>
+                <div class="css col-md-4 p-2 border rounded ms-2" style="width: 300px;">
+                  <h5>CSS</h5>
+                </div>
+                <div class="js col-md-4 p-2 border rounded ms-2" style="width: 300px;">
+                  <h5>JavaScript</h5>
+                </div>
               </div>
             </div>
+          </div>
+          
+          <!-- Second Skill Group -->
+          <div class="row container-fluid justify-content-center text-center">
+            <div class="col-md-6">
+              <div class="skill1 d-flex text-center container-fluid align-items-center p-2 mx-auto">
+                <div class="boots col-md-4 p-2 border rounded ml-2" style="width: 300px;">
+                  <h5>BootStrap</h5>
+                </div>
+                <div class="figma col-md-4 p-2 border rounded ms-2" style="width: 300px;">
+                  <h5>Figma</h5>
+                </div>
+                <div class="ax col-md-4 p-2 border rounded ms-2" style="width: 300px;">
+                  <h5>Axure</h5>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
 
         </div>
       </div>
-        
-        
+    </div>
 
-      </div>
+
+      <!-- Activities -->
+      <!-- <div class="details p-4 animated-content ">
+        <div class="row justify-content-center">
+
+          <div class="decscription col-md-6 p-3 align-items-center ">
+            <h4 class="text-center text-decoration-underline p-2">
+             Activities
+            </h4>
+            <p class="ml-2 p-3">
+              Opened up a booth with a group of 5 
+            </p>
+          </div> -->
+
+      
 
 
     
